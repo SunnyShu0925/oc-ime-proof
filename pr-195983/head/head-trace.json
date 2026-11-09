@@ -1,0 +1,189 @@
+{
+  "summary": {
+    "arm": "head",
+    "formTag": "FORM",
+    "submitEvents": 0,
+    "dialogPresentAtSubmit": null,
+    "enterKeydown": {
+      "type": "keydown",
+      "key": "Enter",
+      "keyCode": 13,
+      "isComposing": true,
+      "defaultPrevented": true,
+      "data": null,
+      "label": "Search sessions",
+      "value": "发布"
+    },
+    "compositionEndEvents": 0,
+    "dialogVisibleAfterEnter": true,
+    "searchStillOpen": true,
+    "committedValue": "发布",
+    "saveRequestCount": 0,
+    "chineseSearchRequestCount": 1,
+    "visibleCheckboxes": 1,
+    "keysAfterEnter": 1,
+    "composingEscape": {
+      "escapeKeydown": {
+        "type": "keydown",
+        "key": "Escape",
+        "keyCode": 27,
+        "isComposing": true,
+        "defaultPrevented": false,
+        "data": null,
+        "label": "Search sessions",
+        "value": "fabu"
+      },
+      "searchOpen": true,
+      "dialogVisible": true,
+      "queryAfterCancel": ""
+    },
+    "settledEscape": {
+      "clearedQuery": "",
+      "openAfterFirst": true,
+      "openAfterSecond": false,
+      "dialogVisible": true
+    }
+  },
+  "events": [
+    {
+      "type": "compositionstart",
+      "key": null,
+      "keyCode": null,
+      "isComposing": null,
+      "defaultPrevented": false,
+      "data": "",
+      "label": "Search sessions",
+      "value": ""
+    },
+    {
+      "type": "compositionupdate",
+      "key": null,
+      "keyCode": null,
+      "isComposing": null,
+      "defaultPrevented": false,
+      "data": "f",
+      "label": "Search sessions",
+      "value": ""
+    },
+    {
+      "type": "beforeinput",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "f",
+      "label": "Search sessions",
+      "value": ""
+    },
+    {
+      "type": "input",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "f",
+      "label": "Search sessions",
+      "value": "f"
+    },
+    {
+      "type": "compositionupdate",
+      "key": null,
+      "keyCode": null,
+      "isComposing": null,
+      "defaultPrevented": false,
+      "data": "fa",
+      "label": "Search sessions",
+      "value": "f"
+    },
+    {
+      "type": "beforeinput",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "fa",
+      "label": "Search sessions",
+      "value": "f"
+    },
+    {
+      "type": "input",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "fa",
+      "label": "Search sessions",
+      "value": "fa"
+    },
+    {
+      "type": "compositionupdate",
+      "key": null,
+      "keyCode": null,
+      "isComposing": null,
+      "defaultPrevented": false,
+      "data": "fabu",
+      "label": "Search sessions",
+      "value": "fa"
+    },
+    {
+      "type": "beforeinput",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "fabu",
+      "label": "Search sessions",
+      "value": "fa"
+    },
+    {
+      "type": "input",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "fabu",
+      "label": "Search sessions",
+      "value": "fabu"
+    },
+    {
+      "type": "compositionupdate",
+      "key": null,
+      "keyCode": null,
+      "isComposing": null,
+      "defaultPrevented": false,
+      "data": "发布",
+      "label": "Search sessions",
+      "value": "fabu"
+    },
+    {
+      "type": "beforeinput",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "发布",
+      "label": "Search sessions",
+      "value": "fabu"
+    },
+    {
+      "type": "input",
+      "key": null,
+      "keyCode": null,
+      "isComposing": true,
+      "defaultPrevented": false,
+      "data": "发布",
+      "label": "Search sessions",
+      "value": "发布"
+    },
+    {
+      "type": "keydown",
+      "key": "Enter",
+      "keyCode": 13,
+      "isComposing": true,
+      "defaultPrevented": true,
+      "data": null,
+      "label": "Search sessions",
+      "value": "发布"
+    }
+  ]
+}

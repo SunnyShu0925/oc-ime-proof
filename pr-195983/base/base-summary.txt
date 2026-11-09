@@ -1,0 +1,10 @@
+arm=base search form=<null>
+keydown Enter: isComposing=true keyCode=13 defaultPrevented=false
+compositionend (commit) events: 0
+native form submit events: 1
+sessions.groups.* (save) requests: 0 {"put":0,"update":0,"delete":0}
+dialog visible after Enter: false | search still open: false
+committed search value: null
+sessions.list(search=发布) requests: 1 | visible checkbox rows: null
+Escape while composing: not reached
+settled Escapes: not reached
