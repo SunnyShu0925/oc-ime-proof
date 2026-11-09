@@ -18,6 +18,11 @@
     "dialogVisibleAfterEnter": true,
     "searchStillOpen": true,
     "committedValue": "发布",
+    "groupWriteRequests": {
+      "put": 0,
+      "update": 0,
+      "delete": 0
+    },
     "saveRequestCount": 0,
     "chineseSearchRequestCount": 1,
     "visibleCheckboxes": 1,

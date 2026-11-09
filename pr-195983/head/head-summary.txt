@@ -2,7 +2,7 @@ arm=head search form=<FORM>
 keydown Enter: isComposing=true keyCode=13 defaultPrevented=true
 compositionend (commit) events: 0
 native form submit events: 0
-sessions.groups.update (save) requests: 0
+sessions.groups.* (save) requests: 0 {"put":0,"update":0,"delete":0}
 dialog visible after Enter: true | search still open: true
 committed search value: "发布"
 sessions.list(search=发布) requests: 1 | visible checkbox rows: 1

@@ -23,9 +23,9 @@ compose `发布` → Enter (commit) → then composing Escape and the two settle
 |---|---|
 | `head/head.mp4`, `base/base.mp4` | Full recordings (17s head, 14s base), 1280x720 |
 | `head/head-1-composing.png` | Head, pre-edit text `发布` with composition active |
-| `head/head-2-after-enter-annotated.png` | Head, after committing Enter: dialog open, query `发布`, filtered list (captioned) |
+| `head/head-2-after-enter.png` | Head, after committing Enter: dialog open, query `发布`, filtered list |
 | `head/head-3-after-escape.png` | Head, after composing Escape and the settle-then-clear Escape |
-| `base/base-2-after-enter-annotated.png` | Base, after committing Enter: dialog and search gone (captioned) |
+| `base/base-2-after-enter.png` | Base, after committing Enter: dialog and search gone |
 | `head/head-trace.json`, `base/base-trace.json` | DOM event trace plus the derived summary |
 | `head/head-summary.txt`, `base/base-summary.txt` | Same summary as text |
 
