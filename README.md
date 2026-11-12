@@ -45,3 +45,26 @@ Escape clears the query and keeps search open, the second closes it.
 Note: this Chrome/CDP commit path delivers the commit as a keydown with `isComposing: true` and does
 not emit `compositionend`, so the guard exercised here is the `isComposing`/`keyCode 229` branch, not
 the WebKit composition-end grace window.
+
+## pr-197719 — `openclaw id rebind` option remedies reach the user
+
+Fix under proof: `src/cli/id-cli.ts` promotes four plain `Error` throws to `throwExpectedCliError(...)`
+so the root failure renderer prints the remedy instead of the generic `The CLI command failed.` pair.
+
+Method (`contributions/pr-197719-evidence/capture-cli.sh`, run outside the repo): the shipped entry
+point (`node --import tsx ./src/entry.ts`) runs each refusal in a throwaway state dir
+(`OPENCLAW_STATE_DIR=/tmp/oc-id-proof-*`, empty `{}` config, no Gateway). The same three commands run
+against `origin/main` `src/cli/id-cli.ts` (base) and the PR head; only that one file differs. The
+fourth refusal (a recovery kit that cannot sign for this claw) is only reachable after a live
+`openclawId.authority rebind_prepare` answer, so it is covered by the command-level regression rather
+than by a Gateway-free CLI run.
+
+| Invocation (`openclaw id rebind …`) | Base (`origin/main`) | Head (this PR) |
+|---|---|---|
+| `--yes` without `--kit-stdin` | `[openclaw] The CLI command failed.` + doctor hint | `--yes needs --kit-stdin: type the recovery kit at the prompt otherwise.` |
+| `--kit-stdin` without `--code` | same generic pair | `--kit-stdin needs --code <link-code> from your OpenClaw ID account.` |
+| `--kit-stdin --yes --code test-link-code --binding-seq 0` | same generic pair | `--binding-seq must be a positive whole number.` |
+
+`pr-197719/rebind-remedy.png` (3108x1007): left, base collapses all three refusals into the generic
+two lines and points at `openclaw doctor`; right, this PR prints the specific remedy. Exit code is 1
+in all six runs; only the rendered text changes.
